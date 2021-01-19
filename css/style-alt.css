@@ -106,6 +106,25 @@ header {
   background-color: green;
   color: white;
 }
+.cta-twitter button {
+  font-weight: 900;
+  padding: 9px 25px;
+  background-color: white;
+  border: white 1px solid;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  outline: none;
+}
+.cta-twitter button:hover {
+  background-color: white;
+  color: white;
+}
+.twitter-follow-button {
+  height: 60px;
+  width: 240px;
+}
 .logo {
   color: green;
 }
@@ -289,31 +308,6 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
-}
-.links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.links a {
-  margin-right: 1.5rem;
-  background-color: white;
-  border: 1px green solid;
-  padding: 1rem 3rem;
-  margin-bottom: 5rem;
-  font-weight: 900;
-  letter-spacing: 0.1rem;
-  color: green;
-  text-decoration: none;
-}
-.links a:hover {
-  margin-right: 1.5rem;
-  background-color: green;
-  border: none;
-  padding: 1rem 3rem;
-  font-weight: 900;
-  letter-spacing: 0.1rem;
-  color: white;
 }
 .btn a {
   margin-right: 1.5rem;
