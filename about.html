@@ -53,7 +53,7 @@ This file contains code for the ABOUT page.
       </nav>
       <ul class="nav-buttons">
         <li>
-          <a id="login" href="https://twitter.com/MidasTradingCo" class="cta"
+          <a id="login" href="#" class="cta-twitter"
             ><button class="btn-nav">VIEW TWITTER</button></a
           >
         </li>
@@ -69,17 +69,14 @@ This file contains code for the ABOUT page.
     </header>
     <div class="mobile-header" id="mobile-header">
       <a class="mobile-header-title" href="index.html">MIDAS TRADING</a>
+      <a class="mobile-header-link" target="_blank" href="./index.html"
+        >-&nbsp;&nbsp;&nbsp;&nbsp;HOME</a
+      >
       <a
         class="mobile-header-link"
         target="_blank"
         href="mailto:hello@midastrading.org?subject=Hello!%20"
         >-&nbsp;&nbsp;&nbsp;&nbsp;CONTACT</a
-      >
-      <a
-        class="mobile-header-link"
-        id="login"
-        href="https://twitter.com/MidasTradingCo"
-        >-&nbsp;&nbsp;&nbsp;&nbsp;VIEW&nbsp;TWITTER</a
       >
       <a
         class="mobile-header-link"
@@ -110,6 +107,17 @@ This file contains code for the ABOUT page.
           picking stocks for your long term portfolio, or harnessing the power
           of options and derivatives to produce short term income.
         </h5>
+        <br />
+        <p class="hero-main">
+          <a
+            href="https://twitter.com/MidasTradingCo?ref_src=twsrc%5Etfw"
+            class="twitter-follow-button"
+            data-size="large"
+            data-lang="en"
+            data-show-count="false"
+            >Follow @MidasTradingCo</a
+          >
+        </p>
       </div>
     </section>
     <footer class="about-footer">
@@ -131,5 +139,10 @@ This file contains code for the ABOUT page.
         });
       };
     </script>
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
   </body>
 </html>
