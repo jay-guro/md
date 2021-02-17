@@ -1,142 +1,137 @@
-<!-- 
-This file contains code for the HOME page.
-This page will be live once MIDAS is live.
-In the beginning coming-soon.html will display when you go to www.midastrading.org
--->
 <!DOCTYPE html>
 <html>
-  <head>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-180559578-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-180559578-1");
-    </script>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>MIDAS TRADING</title>
-    <meta name="description" content="MIDAS TRADING" />
-    <link rel="shortcut icon" href="./img/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style-alt.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/jquery@2.1.4/dist/jquery.min.js"></script>
-    <script src="./js/jquery.scrollUp.min.js"></script>
-    <link rel="stylesheet" href="./css/themify-icons.css" />
-  </head>
-  <body>
-    <header class="header sticky sticky--top js-header">
-      <h1 class="logo">MIDAS TRADING</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="about.html">ABOUT</a></li>
-          <li>
-            <a
-              target="_blank"
-              href="mailto:hello@midastrading.org?subject=Hello!%20"
-              >CONTACT</a
+   <head>
+      <script
+         async
+         src="https://www.googletagmanager.com/gtag/js?id=UA-180559578-1"
+         ></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag() {
+           dataLayer.push(arguments);
+         }
+         gtag("js", new Date());
+         gtag("config", "UA-180559578-1");
+      </script>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <title>MIDAS TRADING</title>
+      <meta name="description" content="MIDAS TRADING" />
+      <link rel="shortcut icon" href="assets/img/favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap"
+         rel="stylesheet"
+         />
+      <link rel="stylesheet" href="assets/css/style-alt.min.css" />
+      <link rel="stylesheet" href="assets/css/responsive.min.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+         />
+      <script src="https://cdn.jsdelivr.net/npm/jquery@2.1.4/dist/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrollUp.min.js"></script>
+      <link rel="stylesheet" href="assets/css/themify-icons.min.css" />
+   </head>
+   <body>
+      <header class="header sticky sticky--top js-header">
+         <h1 class="logo">MIDAS TRADING</h1>
+         <nav>
+            <ul class="nav-links">
+               <li><a href="about.html">ABOUT</a></li>
+               <li>
+                  <a
+                     target="_blank"
+                     href="mailto:hello@midastrading.org?subject=Hello!%20"
+                     >CONTACT</a
+                     >
+               </li>
+            </ul>
+         </nav>
+         <ul class="nav-buttons">
+            <li>
+               <a id="login" href="#" class="cta-twitter"
+                  ><button class="btn-nav">VIEW TWITTER</button></a
+                  >
+            </li>
+            <li>
+               <a
+                  id="login"
+                  href="https://discord.com/api/oauth2/authorize?client_id=768305960211972106&redirect_uri=https%3A%2F%2Fdiscord.gg%2FZMfhF8WbUP&response_type=code&scope=identify%20guilds%20guilds.join%20email"
+                  class="cta"
+                  ><button class="btn-nav">LOGIN</button></a
+                  >
+            </li>
+         </ul>
+      </header>
+      <div class="mobile-header" id="mobile-header">
+         <a class="mobile-header-title" href="#">MIDAS TRADING</a>
+         <a class="mobile-header-link" href="about.html"
+            >-&nbsp;&nbsp;&nbsp;&nbsp;ABOUT</a
             >
-          </li>
-        </ul>
-      </nav>
-      <ul class="nav-buttons">
-        <li>
-          <a id="login" href="#" class="cta-twitter"
-            ><button class="btn-nav">VIEW TWITTER</button></a
-          >
-        </li>
-        <li>
-          <a
+         <a
             id="login"
+            class="mobile-header-link"
             href="https://discord.com/api/oauth2/authorize?client_id=768305960211972106&redirect_uri=https%3A%2F%2Fdiscord.gg%2FZMfhF8WbUP&response_type=code&scope=identify%20guilds%20guilds.join%20email"
-            class="cta"
-            ><button class="btn-nav">LOGIN</button></a
-          >
-        </li>
-      </ul>
-    </header>
-    <div class="mobile-header" id="mobile-header">
-      <a class="mobile-header-title" href="#">MIDAS TRADING</a>
-      <a class="mobile-header-link" href="about.html"
-        >-&nbsp;&nbsp;&nbsp;&nbsp;ABOUT</a
-      >
-      <a
-        id="login"
-        class="mobile-header-link"
-        href="https://discord.com/api/oauth2/authorize?client_id=768305960211972106&redirect_uri=https%3A%2F%2Fdiscord.gg%2FZMfhF8WbUP&response_type=code&scope=identify%20guilds%20guilds.join%20email"
-        >-&nbsp;&nbsp;&nbsp;&nbsp;LOGIN</a
-      >
-      <a
-        class="mobile-header-icon icon"
-        href="javascript:void(0);"
-        onclick="myFunction()"
-        ><i class="fa fa-bars"></i
-      ></a>
-    </div>
-    <div id="tsparticles-js"></div>
-    <section class="hero">
-      <div id="container-hero">
-        <h2 class="hero-intro">WELCOME TO</h2>
-        <h1 class="hero-title">MIDAS TRADING</h1>
-        <p class="hero-main">
-          Midas Trading is a virtual community designed for investors with all
-          levels of market experience. At Midas, we utilize a combination of
-          both technical and fundamental analysis, along with event-driven
-          trading strategies, to identify opportunities for superior returns
-          across the global financial markets. Let us provide you with the
-          necessary guidance to become a smarter and richer investor, and
-          navigate your money through both bear and bull markets.
-        </p>
-        <br />
-        <p class="hero-main">
-          <a
-            href="https://twitter.com/MidasTradingCo?ref_src=twsrc%5Etfw"
-            class="twitter-follow-button"
-            data-size="large"
-            data-lang="en"
-            data-show-count="false"
-            >Follow @MidasTradingCo</a
-          >
-        </p>
+            >-&nbsp;&nbsp;&nbsp;&nbsp;LOGIN</a
+            >
+         <a
+            class="mobile-header-icon icon"
+            href="javascript:void(0);"
+            onclick="myFunction()"
+            ><i class="fa fa-bars"></i
+            ></a>
       </div>
-    </section>
-    <footer class="footer-index">
-      <p>
-        POWERED BY MIDAS TRADING USA. COPYRIGHT &copy;
-        <script>
-          document.write(new Date().getFullYear());
-        </script>
-        ALL RIGHTS RESERVED.
-        <a class="doc" href="disclaimer.html">Disclaimer</a>
-      </p>
-    </footer>
-    <script src="./js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.4/dist/tsparticles.min.js"></script>
-    <script>
-      window.onload = function () {
-        particlesJS.load("tsparticles-js", "js/particles.json", function () {
-          console.log("callback - particles.js config loaded");
-        });
-      };
-    </script>
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
-  </body>
+      <div id="tsparticles-js"></div>
+      <section class="hero">
+         <div id="container-hero">
+            <h2 class="hero-intro">WELCOME TO</h2>
+            <h1 class="hero-title">MIDAS TRADING</h1>
+            <p class="hero-main">
+               Midas Trading is a virtual community designed for investors with all
+               levels of market experience. At Midas, we utilize a combination of
+               both technical and fundamental analysis, along with event-driven
+               trading strategies, to identify opportunities for superior returns
+               across the global financial markets. Let us provide you with the
+               necessary guidance to become a smarter and richer investor, and
+               navigate your money through both bear and bull markets.
+            </p>
+            <br />
+            <p class="hero-main">
+               <a
+                  href="https://twitter.com/MidasTradingCo?ref_src=twsrc%5Etfw"
+                  class="twitter-follow-button"
+                  data-size="large"
+                  data-lang="en"
+                  data-show-count="false"
+                  >Follow @MidasTradingCo</a
+                  >
+            </p>
+         </div>
+      </section>
+      <footer class="footer-index">
+         <p>
+            POWERED BY MIDAS TRADING USA. COPYRIGHT &copy;
+            <script>
+               document.write(new Date().getFullYear());
+            </script>
+            ALL RIGHTS RESERVED.
+            <a class="doc" href="disclaimer.html">Disclaimer</a>
+         </p>
+      </footer>
+      <script src="assets/js/main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.4/dist/tsparticles.min.js"></script>
+      <script>
+         window.onload = function () {
+           particlesJS.load("tsparticles-js", "assets/js/particles.json", function () {
+             console.log("callback - particles.js config loaded");
+           });
+         };
+      </script>
+      <script
+         async
+         src="https://platform.twitter.com/widgets.js"
+         charset="utf-8"
+         ></script>
+   </body>
 </html>
