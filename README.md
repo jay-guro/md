@@ -1,2 +1,3 @@
-# Midas Trading
+# midas-trading.jasonguro.com
+Midas Trading
 
