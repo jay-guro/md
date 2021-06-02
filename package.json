@@ -1,0 +1,23 @@
+{
+  "name": "midas-trading.jasonguro.com",
+  "version": "1.0.0",
+  "description": "MIDAS TRADING",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay-guro/midas-trading.jasonguro.com.git"
+  },
+  "author": "Jason Guro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jay-guro/midas-trading.jasonguro.com/issues"
+  },
+  "homepage": "https://github.com/jay-guro/midas-trading.jasonguro.com#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bulma": "^0.9.2"
+  }
+}
