@@ -2,7 +2,7 @@
 <html>
 
 <head>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <!-- Google Analytics -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QHYNW268B"></script>
    <script>
       window.dataLayer = window.dataLayer || [];
@@ -10,32 +10,36 @@
       gtag('js', new Date());
       gtag('config', 'G-6QHYNW268B');
    </script>
+   <!-- Scripts -->
    <meta charset="utf-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <title>MIDAS TRADING</title>
    <meta name="description" content="MIDAS TRADING" />
-   <link rel="shortcut icon" href="assets/img/favicon.ico" />
+   <meta name="author" content="Jason Guro">
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- Scripts -->
+   <link rel="shortcut icon" href="assets/img/favicon.ico" />
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet" />
    <link rel="stylesheet" href="assets/css/style-alt.min.css" />
    <link rel="stylesheet" href="assets/css/responsive.min.css" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+   <link rel="stylesheet" href="assets/css/themify-icons.min.css" />
+   <!-- Scripts -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
       integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
       crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/jquery@2.1.4/dist/jquery.min.js"></script>
    <script src="assets/js/jquery.scrollUp.min.js"></script>
-   <link rel="stylesheet" href="assets/css/themify-icons.min.css" />
 </head>
 
 <body>
+   <!-- Loader -->
    <div id="loader-wrapper">
       <div id="loader"></div>
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
    </div>
-   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5KB7BP" height="0" width="0"
-         style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- NavBar -->
    <header class="header sticky sticky--top js-header">
       <h1 class="logo">MIDAS TRADING</h1>
       <nav>
@@ -57,6 +61,7 @@
          </li>
       </ul>
    </header>
+   <!-- Mobile Header -->
    <div class="mobile-header" id="mobile-header">
       <a class="mobile-header-title" href="#">MIDAS TRADING</a>
       <a class="mobile-header-link" href="about.html">-&nbsp;&nbsp;&nbsp;&nbsp;ABOUT</a>
@@ -65,7 +70,9 @@
       <a class="mobile-header-icon icon" href="javascript:void(0);" onclick="myFunction()"><i
             class="fa fa-bars"></i></a>
    </div>
+   <!-- ParticlesJS -->
    <div id="tsparticles-js"></div>
+   <!-- Hero -->
    <section class="hero">
       <div id="container-hero">
          <h2 class="hero-intro">WELCOME TO</h2>
@@ -86,22 +93,23 @@
          </p>
       </div>
    </section>
+   <!-- Footer -->
    <footer class="footer-index">
       <p>
-         POWERED BY MIDAS TRADING USA. COPYRIGHT &copy; 2021
-         <!-- <script>
+         POWERED BY MIDAS TRADING USA. COPYRIGHT &copy; 
+         <script>
                document.write(new Date().getFullYear());
-            </script> -->
+            </script>
          ALL RIGHTS RESERVED. BUILT BY <a href="https://resume.jasonguro.com">JASON GURO</a>
          <a class="doc" href="disclaimer.html">Disclaimer</a>
       </p>
    </footer>
-   <script src="assets/js/main.js"></script>
+   <!-- Scripts -->
+   <script src="assets/js/main.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.4/dist/tsparticles.min.js"></script>
    <script>
       window.onload = function () {
          particlesJS.load("tsparticles-js", "assets/js/particles.json", function () {
-            console.log("callback - particles.js config loaded");
          });
       };
    </script>

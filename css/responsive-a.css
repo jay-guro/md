@@ -24,6 +24,7 @@
     line-height: 1.25rem;
   }
 }
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   #scrollUp {
     right: 7px;
@@ -37,6 +38,7 @@
     line-height: 1.25rem;
   }
 }
+
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   #scrollUp {
     right: 18px;
@@ -46,6 +48,7 @@
     left: 10%;
   }
 }
+
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   #scrollUp {
     right: 12px;
@@ -59,12 +62,14 @@
     line-height: 1.25rem;
   }
 }
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .about-footer {
     width: 80%;
     left: 10%;
   }
 }
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   #scrollUp {
     right: 12px;
@@ -78,6 +83,7 @@
     line-height: 1.25rem;
   }
 }
+
 @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .about-footer {
     width: 80%;
@@ -88,6 +94,7 @@
     line-height: 1.25rem;
   }
 }
+
 @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   #scrollUp {
     right: 15px;
@@ -101,6 +108,7 @@
     line-height: 1.25rem;
   }
 }
+
 /* 
   =================================
   === TABLET ======================
@@ -112,42 +120,49 @@
     left: 10%;
   }
 }
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .about-footer {
     width: 80%;
     left: 10%;
   }
 }
+
 @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .about-footer {
     width: 80%;
     left: 10%;
   }
 }
+
 @media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .about-footer {
     width: 80%;
     left: 10%;
   }
 }
+
 @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .about-footer {
     width: 80%;
     left: 10%;
   }
 }
+
 @media only screen and (min-device-width: 1194px) and (max-device-width: 1194px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .about-footer {
     width: 80%;
     left: 10%;
   }
 }
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .about-footer {
     width: 80%;
     left: 10%;
   }
 }
+
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .about-footer {
     width: 80%;

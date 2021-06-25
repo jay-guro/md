@@ -1,36 +1,5 @@
 /* 
 =================================
-=== PROJECT STYLE SHEET =========
-=================================
-*/
-/* 
-=================================
-=== OUTLINE =====================
-=================================
-MAIN
-  HEADER
-  STICKY HEADER
-  MOBILE HEADER
-  BACKGROUND
-  FOOTER
-HOME 
-  HERO 
-  FEATURES 
-  STEPS
-  SCROLLUP
-ABOUT
-FAQ 
-COMING SOON 
-ERROR 
-THANK YOU 
-MAINTENANCE
-LEGAL 
-LEGAL DOC
-=================================
-=================================
-*/
-/* 
-=================================
 === MAIN ========================
 =================================
 */
@@ -45,6 +14,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
 /* --- HEADER --- */
 .nav-links,
 .nav-buttons {
@@ -108,6 +78,7 @@ header {
 .logo {
   color: gold;
 }
+
 /* --- STICKY HEADER --- */
 .sticky {
   position: sticky;
@@ -137,6 +108,7 @@ header {
 .header.is-active::after {
   opacity: 1;
 }
+
 /* --- MOBILE HEADER --- */
 .mobile-header {
   overflow: hidden;
@@ -203,6 +175,7 @@ a.mobile-header-link {
     display: none;
   }
 }
+
 /* --- BACKGROUND --- */
 #tsparticles-js {
   position: fixed;
@@ -231,6 +204,7 @@ canvas.tsparticles-canvas-el {
   max-height: 100%;
   z-index: 0;
 }
+
 /* --- FOOTER --- */
 footer {
   text-align: center;
@@ -249,11 +223,13 @@ footer {
   text-transform: uppercase;
   text-decoration: underline;
 }
+
 /* 
 =================================
 === HOME ========================
 =================================
 */
+
 /* --- HERO --- */
 #container-hero {
   background-color: transparent;
@@ -334,6 +310,7 @@ footer {
   letter-spacing: 0.1rem;
   color: black;
 }
+
 /* --- FEATURES --- */
 .features-intro {
   padding: 3rem;
@@ -376,6 +353,7 @@ footer {
   background-color: gold;
   color: black;
 }
+
 /* --- STEPS --- */
 .steps-intro {
   font-size: xx-large;
@@ -421,6 +399,7 @@ footer {
   background-color: gold;
   color: black;
 }
+
 /* --- SCROLL UP --- */
 #scrollUp {
   background: black;
@@ -440,6 +419,7 @@ footer {
   background: gold;
   color: black;
 }
+
 /* 
 =================================
 === ABOUT =======================
@@ -471,6 +451,7 @@ h5 {
   color: gold;
   font-size: 1.25rem;
 }
+
 /* 
 =================================
 === FAQ =========================
@@ -525,6 +506,7 @@ h5 {
   border-radius: 3px;
   text-align: center;
 }
+
 /* 
 =================================
 === COMING SOON =================
@@ -609,6 +591,7 @@ h5 {
 .form-input:placeholder {
   padding-left: 5px;
 }
+
 /* 
 =================================
 === ERROR =======================
@@ -646,6 +629,7 @@ h5 {
   text-transform: uppercase;
   margin-bottom: 3rem;
 }
+
 /* 
 =================================
 === THANK YOU ===================
@@ -683,6 +667,7 @@ h5 {
   text-transform: uppercase;
   margin-bottom: 3rem;
 }
+
 /* 
 =================================
 === MAINTENANCE =================
@@ -720,6 +705,7 @@ h5 {
   text-transform: uppercase;
   margin-bottom: 3rem;
 }
+
 /* 
 =================================
 === LEGAL =======================
@@ -743,6 +729,7 @@ h5 {
   text-align: center;
   padding-top: 1%;
 }
+
 /* 
 =================================
 === LEGAL DOC ===================
@@ -800,7 +787,11 @@ h5 {
   font-weight: 900;
 }
 
-
+/* 
+=================================
+=== LOADER ===================
+=================================
+*/
 #loader-wrapper {
     position: fixed;
     top: 0;

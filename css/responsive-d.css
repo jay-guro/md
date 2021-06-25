@@ -1,10 +1,5 @@
 /* 
 =================================
-=== DOCUMENT ====================
-=================================
-*/
-/* 
-=================================
 === MOBILE ======================
 =================================
 */
@@ -27,6 +22,7 @@
     margin-right: 0px;
   }
 }
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .doc-footer {
     width: 80%;
@@ -43,11 +39,13 @@
     margin-right: 0px;
   }
 }
+
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   #scrollUp {
     right: 18px;
   }
 }
+
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   .doc-footer {
     width: 80%;
@@ -64,6 +62,7 @@
     margin-right: 0px;
   }
 }
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   .doc-footer {
     width: 80%;
@@ -80,6 +79,7 @@
     margin-right: 0px;
   }
 }
+
 @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   .doc-footer {
     width: 80%;
@@ -93,6 +93,7 @@
     margin-right: 0px;
   }
 }
+
 /* 
   =================================
   === TABLET ======================
@@ -110,12 +111,14 @@
     margin-right: 0px;
   }
 }
+
 @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .doc_p {
     margin-left: 0px;
     margin-right: 0px;
   }
 }
+
 @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   #scrollUp {
     right: 15px;
@@ -128,6 +131,7 @@
     margin-right: 0px;
   }
 }
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .doc_p {
     margin-left: 0px;
