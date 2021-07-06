@@ -29,6 +29,6 @@ $(document).ready(function () {
 
 // ParticlesJS
 window.onload = function () {
-  particlesJS.load('tsparticles-js_cs', 'js/particles.json', function () {
+  particlesJS.load('tsparticles-js', 'js/particles.json', function () {
   });
 };
