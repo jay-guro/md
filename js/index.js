@@ -26,9 +26,3 @@ $(document).ready(function () {
         $('body').addClass('loaded');
     }, 1500);
 });
-
-// ParticlesJS
-window.onload = function () {
-  particlesJS.load('tsparticles-js', 'js/particles.json', function () {
-  });
-};
